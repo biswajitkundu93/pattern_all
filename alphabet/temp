@@ -1,0 +1,13 @@
+
+size = 7
+row_no = size
+col_no = (size - 1)
+star = "*"
+
+for row in range(row_no):
+    for col in range(col_no):
+        if True:
+            print(star,end="")
+        else:
+            print(end=" ")
+    print()
